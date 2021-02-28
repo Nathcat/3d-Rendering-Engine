@@ -1,5 +1,5 @@
-from Vertex import *
-from Camera import *
+from Engine.Vertex import *
+from Engine.Camera import *
 
 
 class Engine:
