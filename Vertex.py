@@ -18,8 +18,8 @@ class Vertex:
 
         offset = depth / camera_position[2]
 
-        position_flattened = np.array([position[0], position[1]])
-        position_flattened -= offset.astype("int64")
+        position_flattened = np.array([position[0], position[1]], dtype='float64')
+        position_flattened *= np.abs(offset)
 
         return tuple(position_flattened)
 
