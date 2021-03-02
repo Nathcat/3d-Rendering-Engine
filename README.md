@@ -1,6 +1,8 @@
-#3D Rendering Engine
+<h1>3D Rendering Engine<h1>
 
-This is a very basic 3d rendering engine programmed in Python.
-This is a work in progress.
-
+<p>
+This is a very basic 3d rendering engine programmed in Python.<br>
+This is a work in progress.<br>
+<br>
 - Nathcat :P
+</p>
