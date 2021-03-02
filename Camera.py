@@ -24,5 +24,7 @@ class Camera:
             x.append(x_)
             y.append(y_)
 
+        plt.xlim(-1 * self.z, self.z)
+        plt.ylim(-1 * self.z, self.z)
         plt.plot(x, y)
         plt.show()
